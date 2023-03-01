@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://source.unsplash.com/random/?weather,clouds");
+    background-position: center;
+    background-size: cover;
+}
+/* .card h5{
+    
+} */
+#heading{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center ; */
+    justify-content: space-between;
+}
